@@ -30,9 +30,8 @@ a.formLink {
     width:100%;
     height:20px;
     text-align: center;
-    padding-top: 240px;
+    padding-top: 200px;
 }
-
 
 #logo-link{
     position:absolute;
@@ -92,7 +91,7 @@ a.formLink {
 #nav-footer {
     text-align: center;
     position: absolute;
-    top: 300px;
+    top: 200px;
     width: 146px;
     height: 100%;
     padding: 20px 0 0 0;
@@ -213,7 +212,7 @@ img.rightimg { max-width: 370px; }
 
 #formacion {
     position: relative;
-    background: url('/imagenes/Malasömbra-banda.jpg') no-repeat scroll center bottom transparent;
+    background: url('/imagenes/grupo_tira.jpg') no-repeat scroll center bottom transparent;
     width: 620px;
     height: 402px;
     margin: auto;
