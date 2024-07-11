@@ -1,0 +1,279 @@
+/*
+Theme Name: Malasombra
+Theme URI: http://www.malasombra.net/
+
+Version: 1.0
+*/
+
+html {
+    background: #222;
+    overflow-x:hidden;
+}
+body {
+    background-color:#000;
+    color:#fff;
+    font-family:Georgia, serif;
+    font-size:12px;
+    overflow-x:hidden;
+    min-height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+    color:#d9de82;
+    font-style:italic;
+    text-decoration:none;
+}
+a.formLink {
+    display:block;
+    width:100%;
+    height:20px;
+    text-align: center;
+    padding-top: 240px;
+}
+
+
+#logo-link{
+    position:absolute;
+    top:-5px;
+    height:160px;
+    margin-left:0px;
+    width:160px;
+    background-image:url('/files/sello2.png');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#logo-link a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+#nav {
+    position:absolute;
+    top:50px;
+    left:50%;
+    margin-left:-390px;
+    width:150px;
+    height:100%;
+    background-image:url('/files/menu1.png');
+    background-repeat:no-repeat;
+    z-index:10000;
+}
+#nav ul {
+    position:absolute;
+    left:-40px;
+    top:130px;
+}
+#nav ul li {
+    width:150px;
+    height:18px;
+    /* margin-top:5px; */
+}
+#nav ul li:hover{
+    background-image:url('/files/manu_flag.png');
+    background-repeat:no-repeat;
+    background-position:left;
+}
+#nav ul li.active{
+    background-image:url('/files/flag.png');
+    background-repeat:no-repeat;
+    background-position:left center;
+}
+#nav ul li a{
+    font-size:0;
+    display:block;
+    width:140px;
+    margin-left:30px;
+    vertical-align:bottom;  /* Fix for IE Bug */
+    height:18px;
+}
+
+#nav-footer {
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    width: 146px;
+    height: 100%;
+    padding: 20px 0 0 0;
+}
+
+#content {
+    z-index:99999;
+    position:absolute;
+    left:50%;
+    margin-left:-240px;
+    top:50px;
+    width:620px;
+    padding:10px;
+    background-color:#000;
+}
+
+#content-concert {
+    float: none;
+    width: 610px;
+    height: 250px;
+    background-image:url('/files/Malasömbra003.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+#content-crono{
+    float: none;
+    width: 610px;
+    height: 250px;
+    background-image:url('/files/casinorock20150228.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+#content-header {
+    float: none;
+    width: 610px;
+    height: 162px;
+    background-image:url('/files/Logo_contexto.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#content-proyect {
+    float: none;
+    width: 610px;
+    height: 250px;
+    background-image:url('/files/monasterio.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#content-proyect2 {
+    float: none;
+    width: 610px;
+    height: 250px;
+    background-image:url('/files/sufrimiento.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#container li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+#container-left {
+    z-index:99999;
+    float:left;
+    width:240px;
+ /*   min-height:280px; */
+    padding:0px;
+}
+
+#container-right {
+    z-index:99999;
+    float:right;
+    width:370px;
+  /*   min-height:280px; */
+    padding:0px;
+}
+
+#section-header {
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+
+img.leftimg { max-width: 240px; }
+img.rightimg { max-width: 370px; }
+
+#admin,
+#conciertos,
+#noticias {
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    background: #222;
+}
+#admin h2,
+#conciertos h2,
+#noticias h2 {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+}
+#conciertos p,
+.noticia p {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.noticia { padding-bottom:10px; }
+
+#historia p { text-align: justify; }
+#crono ul li { padding-bottom: 5px; }
+
+#formacion {
+    position: relative;
+    background: url('/imagenes/Malasömbra-banda.jpg') no-repeat scroll center bottom transparent;
+    width: 620px;
+    height: 402px;
+    margin: auto;
+}
+
+div.formMember {
+    height: 140px;
+    position: absolute;
+    top: 30px;
+}
+
+table.navigate {
+    margin-top: 20px;
+}
+
+/* Formatos de fuente */
+
+	font.fontFecha{ color: #ff0000; font-size: 8pt; }
+	font.green { color: #008800; }
+	font.red { color: #ff0000; }
+	font.black { color: #ff0000; }
+	font.fontHidden { color: #666; }
+	font.fontComent { color: #fff; }
+
+/* Formatos de parrafo */
+
+p.comentario {
+    margin: 0;
+    padding-top: 5px;
+}
+
+p.respuesta {
+    margin: 0;
+    padding-left: 30px;
+    color: #a55
+}
+
+p.center { text-align: center; }
+p.left { text-align: left; }
+
+ul.circle {list-style-type:circle}
+ul.square {list-style-type:square}
+
+/*
+     FILE ARCHIVED ON 00:41:55 Apr 02, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:26:40 Jul 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.617
+  exclusion.robots: 0.047
+  exclusion.robots.policy: 0.034
+  esindex: 0.013
+  cdx.remote: 9.061
+  LoadShardBlock: 717.034 (3)
+  PetaboxLoader3.datanode: 671.697 (4)
+  PetaboxLoader3.resolve: 240.976 (2)
+  load_resource: 204.145
+*/
