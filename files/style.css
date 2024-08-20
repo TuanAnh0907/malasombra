@@ -34,8 +34,6 @@ a.formLink {
 }
 
 #logo-link{
-    position:absolute;
-    top:-5px;
     height:160px;
     margin-left:0px;
     width:160px;
@@ -55,18 +53,14 @@ a.formLink {
     margin-left:-390px;
     width:150px;
     height:100%;
-    background-image:url('/files/menu1.png');
     background-repeat:no-repeat;
     z-index:10000;
 }
 #nav ul {
-    position:absolute;
-    left:-40px;
-    top:130px;
+    padding: 0;
 }
 #nav ul li {
     width:150px;
-    height:18px;
     /* margin-top:5px; */
 }
 #nav ul li:hover{
@@ -80,7 +74,9 @@ a.formLink {
     background-position:left center;
 }
 #nav ul li a{
-    font-size:0;
+    font-size:16px;
+    padding: 4px 12px;
+    color: white;
     display:block;
     width:140px;
     margin-left:30px;
@@ -90,7 +86,6 @@ a.formLink {
 
 #nav-footer {
     text-align: center;
-    position: absolute;
     top: 200px;
     width: 146px;
     height: 100%;
