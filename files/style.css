@@ -250,6 +250,11 @@ p.left { text-align: left; }
 
 ul.circle {list-style-type:circle}
 ul.square {list-style-type:square}
+#nav .menus > li:hover{
+    background-image: url(/files/flag.png);
+    background-repeat: no-repeat;
+    background-position: left top ;
+}
 
 /*
      FILE ARCHIVED ON 00:41:55 Apr 02, 2022 AND RETRIEVED FROM THE
